@@ -1,0 +1,40 @@
+.nav_container {
+    /* background-color: red; */
+    border-bottom: 1px solid rgba(192, 192, 192, 0.176);
+    margin-top: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_container > * {
+    margin: 0;
+}
+
+.logo {
+    /* background-color: green; */
+    margin-left: 60px;
+    font-size: 2rem;
+}
+
+.searchbar_box {
+    margin-right: 60px;
+}
+
+.searchbar {
+    padding: 7px;
+    width: 200px;
+    border-radius: 15px;
+    border: black;
+    transition: width .5s;
+    outline-width: 0;
+}
+
+.searchbar:focus {
+    width: 300px;
+    padding: 10px;
+    border: black;
+    outline-width: 0;
+}

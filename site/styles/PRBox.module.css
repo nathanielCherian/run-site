@@ -1,0 +1,29 @@
+
+.pr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+.pr_row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.select_box {
+    border-radius: 15px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.input_box {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 0px;
+}

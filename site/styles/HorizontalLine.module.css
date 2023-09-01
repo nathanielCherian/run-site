@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .marker {
+    width: 2px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+  }
+  
+  .active {
+    background-color: #ff0000; /* Change the color for the active marker */
+  }
+  
+  .marker:first-child {
+    left: 0;
+  }
+  
+  .marker:last-child {
+    right: 0;
+  }
+  
+  .marker:not(:first-child):not(:last-child) {
+    --marker-position: 0; /* Default value for the --marker-position variable */
+    left: calc((100% - 4px) * var(--marker-position));
+  }
+  
+  .icon {
+    width: 50px;
+    height: 10px;
+    /* background-color: red; */
+    position: absolute;
+}
+
+  .iconImg {
+    width: 50px;
+  }
+
+  .icon {
+    position: absolute;
+    top: -25px; /* Move the icon up by 25 pixels */
+    display: flex;
+    align-items: center;
+  }
+  

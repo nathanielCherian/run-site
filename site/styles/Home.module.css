@@ -1,0 +1,107 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #010411ff; */
+}
+
+.container_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+    flex-grow: 1;
+}
+
+.img_container {
+    position: relative;
+    /* background-color: red; */
+    /* width: 40%; */
+    /* min-width: 800px; */
+    overflow: hidden;
+}
+
+.homeimg {
+    height: 100vh;
+    margin: 0;
+    display: block;
+    position:relative;
+    top: 0;
+    right: 0;
+    margin-left: -100px;
+}
+
+.inner_triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 99vh 0px 0px 19.5vh;
+    border-color: transparent transparent transparent var(--background);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100vh 0px 0px 20vh;
+    border-color: transparent transparent transparent var(--outline);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    font-size: 6rem;
+    font-weight: bold;
+    /* background-color: green; */
+    height: fit-content;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content_box {
+    /* background-color: red; */
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    padding: 25px;
+    text-align: center;
+    /* background-color: purple; */
+}
+
+.button {
+	background-color: #8b1f26;
+	border-radius:28px;
+	border:1px solid #510f13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-style:italic;
+	padding:16px 31px;
+    padding-left: 50px;
+    padding-right: 50px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#a13037;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

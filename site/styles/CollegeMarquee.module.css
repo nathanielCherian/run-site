@@ -1,0 +1,12 @@
+.dm {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+.college_logo:hover {
+    opacity: .5;
+    cursor: pointer;   
+}

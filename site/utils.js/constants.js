@@ -1,0 +1,32 @@
+const EVENTS = {
+    "60m": ["milliseconds"],
+    "100m": ["milliseconds",],
+    "200m": ["milliseconds",],
+    "300m": ["milliseconds"],
+    "400m": ["milliseconds",],
+    "600m": ["milliseconds"],
+    "800m": ["milliseconds",],
+    "1500m": ["milliseconds",],
+    "1600m": ["milliseconds",],
+    "mile": ["milliseconds"],
+    "3000m": ["milliseconds",],
+    "3200m": ["milliseconds",],
+    "5000m": ["milliseconds",],
+    "10000m": ["milliseconds",],
+    "60H": ["milliseconds",],
+    "110H": ["milliseconds",],
+    "400H": ["milliseconds",],
+    "3000S": ["milliseconds",],
+    "HJ": ["cm",],
+    "PV": ["cm",],
+    "LJ": ["cm",],
+    "TJ": ["cm",],
+    "SP": ["cm",],
+    "DT": ["cm",],
+    "HT": ["cm",],
+    "JT": ["cm",],
+    "WT": ["cm"],
+}
+
+export {EVENTS};
+
