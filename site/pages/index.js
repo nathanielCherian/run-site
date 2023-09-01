@@ -23,13 +23,7 @@ export default function Home() {
 
         <div className={styles.content_box}>
             <div className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            </div>
-            <div className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            </div>
-            <div className={styles.description}>
-                <button className={styles.button} onClick={()=>router.push('/match')}>Get started!</button>
+                <button className={styles.button} disabled onClick={()=>router.push('/match')}>Coming Soon...</button>
             </div>
 
             <CollegeMarquee />
