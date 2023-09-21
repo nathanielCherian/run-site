@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>TrackBound</title>
+        <title>Trackscout</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       
       <div className={styles.container_col}>
         <div className={styles.title}>
-            TrackBound
+            Trackscout
         </div>
         <div className={styles.subtitle}>
             Data driven. Proven results.
